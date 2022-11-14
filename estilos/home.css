@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    /* PALETA DE CORES */
+    --azul:#00ff00;
+}
+
+body{
+    background-color: #eee;
+}
+
+/* HEADER */
+
+.cabeçalho img{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.53);
+}
+
+.pesquisar-pai{
+    padding: 10px;
+    text-align: center;
+}
+
+.pesquisar-pai input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #bbb;
+}
+
+.pesquisar-pai input::placeholder{
+    color: #999;
+}
+
+.pesquisar-pai input::-webkit-search-cancel-button{
+    margin-left: 5px;
+}
+
+.pesquisar-pai input:focus{
+    outline: none;
+}
+
+/* NAV BAR */
+
+.pai-down{
+    text-align: center;
+}
+
+/* NAV BAR FIM */
+
+/* HEADER FIM */
+
+/* BOTTOM BAR */
+
+.bottom-bar{
+    position: fixed;
+    color: white;
+    bottom: 0px;
+    background-color: #030C85;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    z-index: 10;
+}
+
+.bottom-bar span{
+    margin: 0px 20px 0px 20px;
+    font-size: 1.2em;
+}
+
+/* BOTTOM BAR FIM */
+
+/* MAIN */
+
+.pai-carossel{
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.542);
+}
+
+.produtos{
+    float: right;
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+.card-produto{
+    display: inline-block;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #ddd;
+    margin-bottom: 2px;
+}
+
+.card-produto p{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    outline: 2px solid #ddd;
+    margin-bottom: 0px;
+}
+
+.preço{
+    font-weight: bold;
+    color: black;
+}
+
+.nome-produto{
+    font-size: .8em;
+}
+
+.imagem-card{
+    width: 130px;
+    height: 150px;
+    padding: 5px;
+}
+
+/* MAIN FIM */
+
+/* FOOTER */
+
+footer{
+    margin-bottom: 44px;
+    background-color: #02074e;
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    width: 100%;
+}
+
+h2{
+    text-indent: 20px;
+}
+
+.copy{
+    text-align: center;
+}
+
+.lista-redes{
+    list-style-type: none;
+    padding: 0px;
+    font-size: .9em;
+}
+
+.lista-redes li span{
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #999;
+    padding: 5px;
+    border-radius: 13px;
+    font-size: 1.2em;
+}
+
+.lista-redes li a{
+    text-decoration: none;
+    color: white;
+}
