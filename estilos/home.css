@@ -21,8 +21,8 @@ body{
 }
 
 .pai-carossel{
-    border-top: 5px solid red;
-    border-bottom: 5px solid red;
+    border-top: 5px solid #ae8625;
+    border-bottom: 5px solid #ae8625;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.542);
 }
 
@@ -63,7 +63,7 @@ button span{
     position: fixed;
     color: white;
     bottom: 0px;
-    background-color: #030C85;
+    background-color: #ae8625;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -72,6 +72,7 @@ button span{
 
 .bottom-bar span{
     margin: 0px 30px 0px 30px;
+    text-shadow: 1px 1px 1px #2B2C34;
 }
 
 .icon-user, .icon-search, .icon-icon-price-tag, .icon-cart{
@@ -131,7 +132,7 @@ button span{
 
 footer{
     margin-bottom: 54px;
-    background-color: #02074e;
+    background-color: #2B2C34;
     display: inline-block;
     padding: 10px 0px 10px 0px;
     color: white;
